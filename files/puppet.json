@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "puppet": {
+	  "handlers":["email", "default"],
+      "command": "checkpuppet-last-run.rb ",
+      "interval": 10,
+      "subscribers": [
+        "all"
+      ]
+    }
+  }
+}

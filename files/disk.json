@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "disk": {
+	  "handlers":["email", "default"],
+      "command": "check-disk-usage.rb -w 85 -c 95",
+      "interval": 10,
+      "subscribers": [
+        "all"
+      ]
+    }
+  }
+}

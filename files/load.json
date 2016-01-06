@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "load": {
+	  "handlers":["email", "default"],
+      "command": "check-load.rb ",
+      "interval": 10,
+      "subscribers": [
+        "all"
+      ]
+    }
+  }
+}

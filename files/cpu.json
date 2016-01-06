@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "cpu": {
+	  "handlers":["email", "default"],
+	  "type": "metric",
+      "command": "metrics-cpu.rb",
+      "interval": 10,
+      "subscribers": [
+        "all"
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "memory": {
+	  "handlers":["email", "default"],
+      "command": "check-memory-percent.rb -w 80 -c 90",
+      "interval": 10,
+      "subscribers": [
+        "all"
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "handlers": {
+    "email": {
+      "type": "pipe",
+      "command": "echo 'Alert from Sensu'| mail -s 'sensu alert' admin@mcth.fr"
+    }
+  }
+}
