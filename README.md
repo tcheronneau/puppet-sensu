@@ -1,6 +1,6 @@
 This is a Puppet module create really fast for my use but can be a start for someone. 
 
-Fill free to use, fork or most likely improve it. 
+Feel free to use, fork or most likely improve it. 
 
 
 Example : 
